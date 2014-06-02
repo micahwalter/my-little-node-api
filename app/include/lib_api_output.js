@@ -1,9 +1,7 @@
 module.exports = {
 
-	ok: function(req, res, query){
-		
+	ok: function(req, res, query){	
 		res.send(query);
-		
 	},
 	
 	error: function(req, res, code, msg){
