@@ -2,7 +2,7 @@ var api_output = require('./lib_api_output');
 
 module.exports = {
 		
-	formats: function(req, res, query){
+	formats: function(req, res){
 		
 		var rsp = {};
 	
@@ -13,7 +13,7 @@ module.exports = {
 		
 	},
 	
-	methods: function(req, res, query){
+	methods: function(req, res){
 		
 		var methods = require('./config_api_methods');
 		
